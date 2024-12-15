@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Josefin sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin sans", sans-serif;
+  font-size: 30px;
+  
+ 
+}
+
+.header {
+  background-color: rgba(245, 221, 225, 0.774);
+  padding: 30px;
+}
+
+.header__logo {
+  margin: 0;
+  font-size: 3em;
+  text-align: center;
+  color: #33302f;
+
+  font-family: "Bonheur Royale", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.menu {
+  background-color: #b2c4e041;
+  color: #33302f;
+  border: 1px solid ;
+}
+
+.menu__list {
+  margin: 0;
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.menu__item:not(:last-child) {
+  border-right: 1px solid white;
+
+}
+
+.menu__link {
+  display: block;
+  padding: 15px 30px;
+  color: black;
+  text-decoration: none;
+ 
+  
+}
+
+.menu__link:hover, .menu__link:focus {
+  background-color: white;
+  color: #474aff;
+}
+
+.main {
+  margin: 30px 0;
+  padding: 30px;
+  
+  overflow: auto;
+}
+
+.image {
+  width: 100%;
+  border: 5px solid #b9b9b9;
+}
+
+.image--left {
+  max-width: 400px;
+  float: left;
+  margin: 0 30px 15px 0;
+}
+
+.image--right {
+  max-width: 400px;
+  float: right;
+  margin: 0 0 15px 30px;
+}
+.Skagen15 {
+  width: 500px;
+  height: 300px;
+
+}
+
+
+.footer {
+  background-color: #b2c4e041;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid ;
+}
